@@ -13,7 +13,7 @@ This is what the UI of the editor will look like:
 # The XML Editor Menubar Tabs
 ## The File tab:
 * Open: You can open either a .xml file or a .txt file.
-* Save and Save as: Save can be used to immediately save the changes to the same file the user opened and with the same file extension, Save as will allow the user to save the changes in a new file with any extension.
+* Save as: Save as will allow the user to save the changes in a new file with any extension.
 
 ![WhatsApp Image 2024-01-07 at 6 22 15 PM](https://github.com/AhmedEissaeng/D_S-Project/assets/91396631/b50cb76f-0b19-49a8-b3aa-ae3f46c8de28)
 
