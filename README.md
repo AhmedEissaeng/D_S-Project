@@ -18,20 +18,9 @@ This is what the UI of the editor will look like:
 ![WhatsApp Image 2024-01-07 at 6 22 15 PM](https://github.com/AhmedEissaeng/D_S-Project/assets/91396631/b50cb76f-0b19-49a8-b3aa-ae3f46c8de28)
 
 
-## The Operations tab:
-* ### Format: 
-This button auto-indents the selected file into the correct indentation. It can be used on any xml-structured files and the output will be a formatted and well-indented file.
-* ### Minify: 
-This button removes all the spaces, indents, and new lines in the file.
-* ### Convert To JSON: 
-This button converts the file from XML format to JSON Format.
-* ### Compress: 
-The output will be a compressed form of the file.
-* ### Search The Graph: 
-This pops which takes an input, this input represents a topic in the xml file that the user is searching for. This will display all the results for all posts about this topic in the given xml file.
+## the edit tab:
 * ### Undo and Redo: 
 Can be used if the user edited something in the file and would like to undo/redo.
-
 ![WhatsApp Image 2024-01-07 at 6 22 28 PM](https://github.com/AhmedEissaeng/D_S-Project/assets/91396631/5bff0835-8dc8-409b-a2d7-562e8ea66e63)
 
 
@@ -48,9 +37,9 @@ Detects Errors in the file and their type and location.
 Corrects any inconsistent XML files.
 * ### Minify: 
 Removes all the white spaces and new lines from the file.
-* ### Compress: 
+* ### Compress (XML): 
 Compresses the file.
-* ### Decompress: 
+* ### Decompress (XML): 
 Decompresses already compressed XML files and puts them in the correct formatted form.
 * ### Graph Info: 
 Analyses the network of the XML file, and prints out its information (Most Active and Most followed user)
