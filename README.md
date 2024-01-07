@@ -2,7 +2,7 @@
 
 ### This project is a simple XML Editor that runs many operations on an XML File.
 
-You can download the XML Editor from [here](https://drive.google.com/file/d/1BYXo02YTunAQo-e_ypvv8viLTliNOdQl/view?usp=share_link)
+You can get the XML Editor from [here](https://drive.google.com/drive/folders/1TUx6i0-l33tgP7xjfZSNygwbEjtzdtn1)
 
 This is what the UI of the editor will look like:
 
