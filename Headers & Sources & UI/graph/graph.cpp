@@ -199,3 +199,72 @@
         }
         return list_posts;
     }
+User Graph::mostInfluencerUser(){
+        int index=0;
+        int MaxFollowerNum=0;
+        for(int i = 0; i< vertexNum; i++){
+            int followersNum = getUser(i).getFollowers().size();
+            if( MaxFollowerNum < followersNum){
+                MaxFollowerNum = followersNum;
+                index = i;
+            }
+        }
+        return getUser(index);
+    }
+
+    User Graph::mostActiveUser(){
+        int index = 0, MaxNumOfAppeareance = 0;
+        for(int i = 0; i < vertexNum; i++){
+            int NumOfAppeareance=0;
+            for(int j = 0; j < vertexNum; j++){
+                NumOfAppeareance += edges[j][i];
+            }
+            if(MaxNumOfAppeareance < NumOfAppeareance){
+                MaxNumOfAppeareance = NumOfAppeareance;
+                index=i;
+            }
+        }
+        return getUser(index);
+    }
+
+    vector<User> Graph::mutualFollowers(QString idUser1, QString idUser2){
+        int index1 = getIndex(idUser1);
+        int index2 = getIndex(idUser2);
+        vector<User> mutualUsers;
+        for(int i = 0; i < vertexNum; i++){
+            if(i==index1 || i==index2)
+                continue;
+            if(edges[index1][i] && edges[index2][i])
+                mutualUsers.push_back(getUser(i));
+        }
+        if(mutualUsers.size() == 0)
+            qDebug() << "User:" << getUser(idUser1).getName() << " has no mutual followers with " << "User:" << getUser(idUser2).getName() << '\n';
+        return mutualUsers;
+    }
+
+    vector<User> Graph::followSuggestion(QString iD){
+        vector<QString> followers;
+        vector<User> suggested_followers;
+        User u = getUser(iD);
+        vector<QString> u_followers = u.getFollowers();
+        User temp;
+        for (int i = 0; i < u_followers.size(); i++)
+        {
+            temp = getUser(u_followers[i]);
+            vector<QString> temp_followers = temp.getFollowers();
+            for (int j = 0; j < temp_followers.size(); j++)
+            {
+                if (u.getId() != temp_followers[j])
+                    followers.push_back(temp_followers[j]);
+            }
+        }
+
+        sort(followers.begin(), followers.end());
+        followers.erase(unique(followers.begin(), followers.end()), followers.end());
+
+        for (int i = 0; i < followers.size(); i++)
+        {
+            suggested_followers.push_back(getUser(followers[i]));
+        }
+        return suggested_followers;
+    }
