@@ -6,7 +6,7 @@ You can download the XML Editor from [here](https://drive.google.com/file/d/1BYX
 
 This is what the UI of the editor will look like:
 
-[mainWindow][WhatsApp Image 2024-01-07 at 6 22 01 PM](https://github.com/AhmedEissaeng/D_S-Project/assets/91396631/20049bfb-a247-4285-acf3-5d0fa518d393)
+[mainWindow]![WhatsApp Image 2024-01-07 at 6 22 01 PM](https://github.com/AhmedEissaeng/D_S-Project/assets/91396631/20049bfb-a247-4285-acf3-5d0fa518d393)
 
 
 
@@ -15,7 +15,7 @@ This is what the UI of the editor will look like:
 * Open: You can open either a .xml file or a .txt file.
 * Save and Save as: Save can be used to immediately save the changes to the same file the user opened and with the same file extension, Save as will allow the user to save the changes in a new file with any extension.
 
-[FileTab](https://github.com/AhmedEissaeng/D_S-Project/assets/91396631/2699901e-c82e-4725-a37a-fe1cd3d91ca5)
+[FileTab]![WhatsApp Image 2024-01-07 at 6 22 15 PM](https://github.com/AhmedEissaeng/D_S-Project/assets/91396631/b50cb76f-0b19-49a8-b3aa-ae3f46c8de28)
 
 
 ## The Operations tab:
@@ -32,7 +32,7 @@ This pops which takes an input, this input represents a topic in the xml file th
 * ### Undo and Redo: 
 Can be used if the user edited something in the file and would like to undo/redo.
 
-![OperationsTab](imgs./Operations.jpg)
+![OperationsTab]![WhatsApp Image 2024-01-07 at 6 22 28 PM](https://github.com/AhmedEissaeng/D_S-Project/assets/91396631/5bff0835-8dc8-409b-a2d7-562e8ea66e63)
 
 
 ## Main Buttons:
