@@ -26,8 +26,6 @@ Can be used if the user edited something in the file and would like to undo/redo
 
 
 ## Main Buttons:
-* ### Open File: 
-Opens a .xml or a .txt file.
 * ### Format: 
 Same as the Filetab format button.
 * ### Check Consistency: 
