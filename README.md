@@ -21,6 +21,7 @@ This is what the UI of the editor will look like:
 ## the edit tab:
 * ### Undo and Redo: 
 Can be used if the user edited something in the file and would like to undo/redo.
+
 ![WhatsApp Image 2024-01-07 at 6 22 28 PM](https://github.com/AhmedEissaeng/D_S-Project/assets/91396631/5bff0835-8dc8-409b-a2d7-562e8ea66e63)
 
 
