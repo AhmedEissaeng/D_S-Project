@@ -15,7 +15,7 @@ This is what the UI of the editor will look like:
 * Open: You can open either a .xml file or a .txt file.
 * Save and Save as: Save can be used to immediately save the changes to the same file the user opened and with the same file extension, Save as will allow the user to save the changes in a new file with any extension.
 
-![FileTab](imgs./File.jpg)
+![FileTab]![WhatsApp Image 2024-01-07 at 6 22 15 PM](https://github.com/AhmedEissaeng/D_S-Project/assets/91396631/2699901e-c82e-4725-a37a-fe1cd3d91ca5)
 
 
 ## The Operations tab:
