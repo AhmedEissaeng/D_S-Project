@@ -268,3 +268,31 @@ User Graph::mostInfluencerUser(){
         }
         return suggested_followers;
     }
+void Graph::generateDOT(QString fileName){
+        QFile dotFile(fileName);
+        if (!dotFile.open(QIODevice::WriteOnly | QIODevice::Text)) {
+            QMessageBox msgwarning;
+            msgwarning.setText("Unable to open file for writing DOT representation.");
+            msgwarning.setIcon(QMessageBox::Warning);
+            msgwarning.setWindowTitle("Error");
+            msgwarning.exec();
+        }
+        QTextStream out(&dotFile);
+        out << "digraph myGraph {\n";
+        // Write vertices
+        for (int i = 0; i < vertexNum; ++i) {
+            out << "  " << vertices[i].getId() << " [label=\"" << vertices[i].getId() << "\"];\n";
+        }
+
+        // Write edges
+        for (int i = 0; i < vertexNum; ++i) {
+            for (int j = 0; j < vertexNum; ++j) {
+                if (edges[i][j] != NULL_EDGE) {
+                    out << "  " << vertices[i].getId() << " -> " << vertices[j].getId() << ";\n";
+                }
+            }
+        }
+        out << "}\n";
+        dotFile.close();
+        qDebug() << "DOT representation generated in file: " << fileName << '\n';
+    }
