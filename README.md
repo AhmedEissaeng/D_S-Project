@@ -6,7 +6,8 @@ You can download the XML Editor from [here](https://drive.google.com/file/d/1BYX
 
 This is what the UI of the editor will look like:
 
-![mainWindow](imgs./MainWindow.jpg)
+![mainWindow](![WhatsApp Image 2024-01-07 at 6 22 01 PM](https://github.com/AhmedEissaeng/D_S-Project/assets/91396631/dcb3ee47-18a6-4890-88b5-a8484672f9fa)
+)
 
 
 # The XML Editor Menubar Tabs
