@@ -28,6 +28,8 @@ Can be used if the user edited something in the file and would like to undo/redo
 ## Main Buttons:
 * ### Format: 
 This button indents the selected file into the correct indentation.
+* ### ->json : 
+convert xml file to json format.
 * ### Check Consistency: 
 Can be used to check if the given file is consistent or not.
 * ### detect: 
