@@ -6,7 +6,7 @@ You can download the XML Editor from [here](https://drive.google.com/file/d/1BYX
 
 This is what the UI of the editor will look like:
 
-[mainWindow]![WhatsApp Image 2024-01-07 at 6 22 01 PM](https://github.com/AhmedEissaeng/D_S-Project/assets/91396631/dcb3ee47-18a6-4890-88b5-a8484672f9fa)
+[mainWindow](https://github.com/AhmedEissaeng/D_S-Project/assets/91396631/dcb3ee47-18a6-4890-88b5-a8484672f9fa)
 
 
 
@@ -15,7 +15,7 @@ This is what the UI of the editor will look like:
 * Open: You can open either a .xml file or a .txt file.
 * Save and Save as: Save can be used to immediately save the changes to the same file the user opened and with the same file extension, Save as will allow the user to save the changes in a new file with any extension.
 
-![FileTab]![WhatsApp Image 2024-01-07 at 6 22 15 PM](https://github.com/AhmedEissaeng/D_S-Project/assets/91396631/2699901e-c82e-4725-a37a-fe1cd3d91ca5)
+[FileTab](https://github.com/AhmedEissaeng/D_S-Project/assets/91396631/2699901e-c82e-4725-a37a-fe1cd3d91ca5)
 
 
 ## The Operations tab:
