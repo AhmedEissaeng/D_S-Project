@@ -30,9 +30,9 @@ Can be used if the user edited something in the file and would like to undo/redo
 Same as the Filetab format button.
 * ### Check Consistency: 
 Can be used to check if the given file is consistent or not.
-* ### Check for Errors: 
+* ### detect: 
 Detects Errors in the file and their type and location.
-* ### Correct Consistency: 
+* ### Correct : 
 Corrects any inconsistent XML files.
 * ### Minify: 
 Removes all the white spaces and new lines from the file.
@@ -40,8 +40,14 @@ Removes all the white spaces and new lines from the file.
 Compresses the file.
 * ### Decompress (XML): 
 Decompresses already compressed XML files and puts them in the correct formatted form.
-* ### Graph Info: 
-Analyses the network of the XML file, and prints out its information (Most Active and Most followed user)
+* ### Compress (json): 
+Compresse the jsonfile.
+* ### Decompress (json): 
+Decompresses already compressed json files and puts them in the correct formatted for
+* ### Net Info: 
+Analyses the network of the XML file, and prints out its information (Most Active and Most Influencer user).
+* ### Graph: 
+Display the graph of the network of the xml file.
 * ### Search Posts: 
 Same as Search the graph button in the Filetab.
 * ### Mutual Followers: 
