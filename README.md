@@ -27,7 +27,7 @@ Can be used if the user edited something in the file and would like to undo/redo
 
 ## Main Buttons:
 * ### Format: 
-Same as the Filetab format button.
+This button indents the selected file into the correct indentation.
 * ### Check Consistency: 
 Can be used to check if the given file is consistent or not.
 * ### detect: 
